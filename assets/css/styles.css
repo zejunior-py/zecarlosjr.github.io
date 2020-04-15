@@ -34,7 +34,6 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #5f6b77;
   color: #2d844e;
 }
 a:focus {
@@ -193,6 +192,15 @@ iframe {
 }
 .content-font span {
   color: #5f6b77;
+}
+.space-flag {
+  margin-top: 2%;
+}
+.flag-style {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 10%;
+  height: auto;
 }
 /* About Section */
 /* Latest Section */
@@ -372,7 +380,7 @@ iframe {
   font-size: 16px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 .skills .skillset .level-title .level-label {
   color: #ccd1d6;
