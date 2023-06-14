@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Zejr</title>
+	<title>ZeJr</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -43,8 +43,11 @@
    			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
 	   		<div class="logo">
-		         <a href="index.html">ZEJR</a>
-		      </div>		      
+				<div class="image-cropper">
+					<button id="changePT"><img class="rounded" src="images/bandeira-do-brasil.jpg" alt="bandeira-brasil"></button>
+					<button id="changeEN"><img class="rounded" src="images/bandeira-dos-eua.png" alt="bandeira-americana"></button>
+				</div>
+		     </div>		      
 
 		   	<nav id="main-nav-wrap">
 					<ul class="main-navigation">
@@ -68,27 +71,19 @@
    	<div class="intro-overlay"></div>	
 
    	<div class="intro-content">
-		<div class="row"> 
-			<div class="col-twelve">
-				<div class="image-cropper">
-					<a href="index-pt.html"><img class="rounded" src="images/bandeira-do-brasil.jpg" alt="bandeira-brasil"></a>
-					<a href="index.html"><img class="rounded" src="images/bandeira-dos-eua.png" alt="bandeira-americana"></a>
-				</div>
-			</div>
-		</div>
    		<div class="row">
 
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Jose Carlos Jr.</h1>
+	   			<h1 class="trn">meu nome</h1>
 
 	   			<p class="intro-position">
 	   				<span>Software Engineer</span>
 	   				<span>Backend Developer</span> 
 	   			</p>
 
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+	   			<a class="button stroke smoothscroll trn" href="#about" title="">More About Me</a>
 
 	   		</div>  
    			
@@ -113,13 +108,13 @@
    		<div class="col-twelve">
 
    			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
+   			<h1 class="trn">About Details</h1>
 
    			<div class="intro-info">
 
    				<img src="images/profile-pic.png" alt="Profile Picture">
 
-   				<p class="lead">Software developer focused on backend, with more than 10 years of experience in the area, mainly with python and its best frameworks (Flask, Fastapi, Django) and with Javascript/Typescript in NodeJS, having knowledge and experience in Rust Lang. I led full stack ecommerce projects that started at startup levels and are now starting to reach large Brazilian companies, increasing the competitiveness of e-commerce.</p>
+   				<p class="lead trn">About Details Description</p>
    			</div>   			
 
    		</div>   		
@@ -130,9 +125,7 @@
    		<div class="col-six tab-full">
 
    			<h3>Profile</h3>
-   			<p>I was born in Florianopolis/SC and I live here</br>
-			I've been studying technology for years and I love what I do.</br>
-			I'm a vim and linux enthusiast and free software interest.</p>
+   			<p class="trn">Profile Details Description</p>
 
    			<ul class="info-list">
    				<li>
@@ -141,7 +134,7 @@
    				</li>
    				<li>
    					<strong>Birth Date:</strong>
-   					<span>December 15, 1990</span>
+   					<span class="trn">December 15, 1990</span>
    				</li>
    				<li>
    					<strong>Job:</strong>
@@ -159,9 +152,7 @@
    		<div class="col-six tab-full">
 
    			<h3>Skills</h3>
-   			<p>Recently I have been developing microservices and using cloud resources from different providers (AWS, GCP, IBM), building environments with Kubernets, infrastructure and CI/CD tools such as Github Actions, Jenkins and Terraform as IAC.</br>
-
-				Proficient in design and architecture concepts related to DDD, BDD, Clean Arch, Clean Code, Tests, Data Structures and Algorithms.</p>
+   			<p class="trn">Skills Details Description</p>
 
 				<ul class="skill-bars">
 				   <li>
@@ -185,7 +176,7 @@
 
    	<div class="row button-section">
    		<div class="col-twelve">
-   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll trn">Hire Me</a>
    			<a href="https://drive.google.com/file/d/1pYF5QU70saKCQ47jOgv2VgKZ4MCLWTJc/view?usp=sharing" title="Download CV" class="button button-primary">Download CV</a>
    		</div>   		
    	</div>
@@ -201,9 +192,10 @@
    		<div class="col-twelve">
 
    			<h5>Resume</h5>
-   			<h1>More of my credentials.</h1>
+   			<h1 class="trn">Resume Details</h1>
 
-   			<p class="lead">Here I will leave my last experiences listed, to have access to all my professional history, visit my <a href="https://www.linkedin.com/in/jose-carlos-vieira-junior-4a5b5515b/">Linkedin</a>.</p>
+   			<p class="lead trn">Resume Details Description</p>
+   			<p class="lead trn">Resume Details Description Spam</p>
 
    		</div>   		
    	</div> <!-- /section-intro--> 
@@ -227,14 +219,14 @@
 	   				</div>
 
 	   				<div class="timeline-header">
-	   					<h3>Staff Software Engineer</h3>
-	   					<p>April 2022 - May 2023</p>
+	   					<h3 class="trn">1 work name</h3>
+	   					<p class="trn">1 work date</p>
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4><a href="https://www.yuca.live/">Yuca: </a>Awesome Realstate Project</h4>
-	   					<p>E-commerce that offers apartments in the best neighborhoods of São Paulo with exclusive design and integrated services.</p>
-	   					<p><b>Skills: </b>NestJS, Typescript, AWS Cloud, Terraform, Github Actions</p>
+	   					<h4 class="trn">1 name</h4>
+	   					<p class="trn">1 work</p>
+	   					<p class="trn">1 skills</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -246,15 +238,16 @@
 					</div>
 
 					<div class="timeline-header">
-						<h3>Senior Software Engineer</h3>
-						<p>May 2021 - April 2022</p>
+						<h3 class="trn">2 work name</h3>
+						<p class="trn">2 work date</p>
 					</div>
 
 					<div class="timeline-content">
-						<h4><a href="https://web.faci.ly/">Facily: </a>A Social Ecommerce</h4>
-						<p>An e-commerce that brings together several products and incredible prices, buying wholesale and selling B2C without intermediaries</p>
-						<p><b>Skills: </b>Python, Fastapi, GCP Cloud, Terraform, Gitlab, Kubernets</p>
+						<h4 class="trn">2 name</h4>
+						<p class="trn">2 work</p>
+						<p class="trn">2 skills</p>
 					</div>
+
 
 				</div> <!-- /timeline-block -->
 
@@ -285,52 +278,49 @@
 	   				</div>
 
 	   				<div class="timeline-header">
-	   					<h3>Bachelor Technology</h3>
-	   					<p>December 2007</p>
+	   					<h3 class="trn">1 education name</h3>
+	   					<p class="trn">1 education date</p>
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>SENAI/SC - BTech, análise e desenvolvimento de sistemas</h4>
-	   					<p>
-							UniSENAI's Technological Graduation in Systems Analysis and Development encourages thinking, critical vision, social responsibility and prepares new professionals to develop their careers in Brazil or abroad, in a market that keeps growing!
-
-						</p>
+	   					<h4 class="trn">1 education</h4>
+	   					<p class="trn">1 education details</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
 
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Electrical Engineering</h3>
-	   					<p>July 2010 - not completed</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Unisul/SC</h4>
-	   					<p>Course focused on developing electronics, automation, computing, telecommunications, energy production and distribution devices.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-				   <div class="timeline-block">
+   				<div class="timeline-block">
 
 					<div class="timeline-ico">
 						<i class="fa fa-graduation-cap"></i>
 					</div>
 
 					<div class="timeline-header">
-						<h3>Information Technology and Networking</h3>
-						<p>July 2017 - not completed</p>
+						<h3 class="trn">2 education name</h3>
+						<p class="trn">2 education date</p>
 					</div>
 
 					<div class="timeline-content">
-						<h4>Faculdade Estácio de Sá/SC</h4>
-						<p>The Computer Networks course teaches how to design, implement, manage and integrate computer networks. Students also learn to create security solutions in these systems that are present all over the world and in all areas.</p>
+						<h4 class="trn">2 education</h4>
+						<p class="trn">2 education details</p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3 class="trn">3 education name</h3>
+						<p class="trn">3 education date</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4 class="trn">3 education</h4>
+						<p class="trn">3 education details</p>
 					</div>
 
 				</div> <!-- /timeline-block -->
@@ -352,135 +342,14 @@
    		<div class="col-twelve">
 
    			<h5>Portfolio</h5>
-   			<h1>Check Out Some of My <a href="https://opensource.com/resources/what-open-source">Open Source</a> Works.</h1>
+   			<h1 class="trn">portifolio Details</h1>
 
-   			<p class="lead">During my career as a software developer most of the projects built are in the private sphere, however, in my free time and with the intention of helping the community, I created some open source projects</p>
-			<spam>You can check my <a href="https://github.com/josecarlosvieirajr">github</a> to know all my projects</spam>
+   			<p class="lead trn">portifolio Details Description</p>
+			<spam class="trn">portifolio Details Description spam</spam>
    		</div>   		
    	</div> <!-- /section-intro--> 
 
 	</section> <!-- /portfolio --> 
-
-	
-	<!-- services Section
-   ================================================== -->
-	<section id="services">
-
-		<div class="overlay"></div>
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Services</h5>
-   			<h1>What Can I Do For You?</h1>
-
-   			<p class="lead">Due to the years of experience in the tech area, for all the problems, scenarios and companies that I have been through, I can help you and your company to achieve a healthy and agile development flow</p>
-
-   		</div>   		
-   	</div> <!-- /section-intro -->
-
-   	<div class="row services-content">
-
-   		<div id="owl-slider" class="owl-carousel services-list">
-
-	      	<div class="service">	
-
-	      		<span class="icon"><i class="icon-earth"></i></span>            
-
-	            <div class="service-content">	
-
-	            	 <h3>Api Integration</h3>
-
-		            <p class="desc">
-						API integration refers to the process of connecting and combining different software systems or applications through an Application Programming Interface (API). APIs provide a set of rules and protocols that enable different software components to interact and share data seamlessly. API integration involves designing and implementing the necessary code to establish this connection, allowing information to be exchanged and actions to be performed between different systems, enhancing interoperability, and enabling developers to leverage the functionality of multiple APIs within their applications or services.
-	         		</p>
-	         		
-	         	</div> 	         	 
-
-				</div> <!-- /service -->
-
-				<div class="service">	
-
-					<span class="icon"><i class="icon-window"></i></span>                          
-
-	            <div class="service-content">	
-
-	            	<h3>Web Development Backend</h3>  
-
-		            <p class="desc">
-						Web development backend refers to the server-side implementation of a website or web application. It involves creating the logic, infrastructure, and functionality that power the frontend of a website and enable it to interact with databases, handle user authentication, process data, and perform various tasks behind the scenes. Backend development typically involves programming languages like Python, Nodejs, and frameworks like Django, NestJS, FastAPI, Deno, Flask. Backend developers focus on designing and implementing APIs, managing server configurations, handling security and data privacy, and optimizing performance to ensure smooth and efficient operations of the web application.
-	         		</p>
-
-	            </div>	                          
-
-			   </div> <!-- /service -->
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
-
-	            <div class="service-content">
-
-	            	<h3>Building Microservices</h3>
-
-		            <p class="desc">
-						Microservices is an architectural approach in software development where a complex application is divided into smaller, loosely coupled, and independently deployable services. Each microservice focuses on a specific business capability and can be developed, tested, deployed, and scaled independently of other services. Microservices communicate with each other through well-defined APIs, typically using lightweight protocols such as REST or message queues. This modular approach allows for greater flexibility, scalability, and resilience as each service can be developed and updated independently, enabling teams to work on different services simultaneously. Microservices architecture promotes agility, maintainability, and scalability in large-scale applications, making it easier to adapt to changing requirements and enabling organizations to deliver software more rapidly.
-	        			</p> 
-
-	            </div> 	            	               
-
-			   </div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-toggles"></i></span>	              
-
-	            <div class="service-content">
-
-	            	<h3>Legacy Code Refactoring</h3>
-
-		            <p class="desc">Legacy code refactoring refers to the process of improving the structure, design, and functionality of existing software code that is considered outdated, hard to maintain, or lacks modern best practices. It involves making changes to the codebase while preserving its external behavior, aiming to enhance code readability, modularity, and maintainability. The refactoring process typically involves identifying and eliminating code smells, such as duplicated code, long methods, or complex conditional statements, and applying refactorings like extracting methods, introducing design patterns, or improving test coverage. Legacy code refactoring is crucial for reducing technical debt, improving code quality, and making the codebase more flexible and easier to work with, allowing developers to add new features, fix bugs, and optimize performance more efficiently.
-	         		</p> 
-	         		
-	            </div>                
-
-				</div> <!-- /service -->
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-image"></i></span>	            
-
-	            <div class="service-content">
-
-	            	<h3>Software Architecture</h3>
-
-		            <p class="desc">Software architecture refers to the high-level design and structure of a software system. It involves making crucial decisions about the organization, components, and interactions of the system to meet specific functional and non-functional requirements. Software architecture defines the key building blocks, such as modules, components, and interfaces, and determines how they interact to achieve the desired functionality and performance. It also considers factors like scalability, maintainability, security, and extensibility. A well-designed software architecture provides a blueprint for developers to follow, promotes code reusability, simplifies maintenance, and enables the system to evolve and adapt to changing needs over time. It serves as a foundation for the development process, guiding the implementation and ensuring that the software system meets the desired quality attributes.
-	        			</p> 
-
-	            </div>	               
-
-			   </div> <!-- /service -->
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
-
-	            <div class="service-content">
-
-	            	 <h3>Software Development Consultancy</h3>
-
-		            <p class="desc">Software Development Consultancy refers to a service provided by experienced professionals who specialize in advising and guiding organizations on various aspects of software development. These consultants offer their expertise to assist companies in making informed decisions, optimizing development processes, and achieving their software-related goals. They provide strategic advice, technical guidance, and practical solutions based on their deep understanding of software development principles, industry best practices, and emerging technologies. Software Development Consultancy can encompass a wide range of services, including software project management, requirements analysis, architectural design, code reviews, quality assurance, and technology selection. The primary objective of software development consultancy is to help businesses maximize the value and efficiency of their software development initiatives, ensuring the delivery of high-quality software solutions that align with their business objectives.
-	        			</p> 
-	        			
-	            </div>	               
-
-			   </div> <!-- /service -->
-
-	      </div> <!-- /services-list -->
-   		
-   	</div> <!-- /services-content -->
-		
-	</section> <!-- /services -->	
 
 
 	<!-- stats Section
@@ -604,10 +473,9 @@
    		<div class="col-twelve">
 
    			<h5>Contact</h5>
-   			<h1>I'd Love To Hear From You.</h1>
+   			<h1 class="trn">contact Details</h1>
 
-   			<p class="lead">you can send me an email here or to <b>contato.b4bits@gmail.com</b>.
-				if you prefer, you can call me on my social networks that are there at the beginning.</p>
+   			<p class="lead trn">contact Details Description</p>
 
    		</div> 
    	</div> <!-- /section-intro -->
@@ -633,9 +501,9 @@
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
-                     <button class="submitform">Submit</button>
+                     <button class="submitform trn">Submit</button>
                      <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
+                        <div class="text-loader trn">Sending</div>                             
        				      <div class="s-loader">
 								  	<div class="bounce1"></div>
 								  	<div class="bounce2"></div>
@@ -652,7 +520,7 @@
             </div>            
             <!-- contact-success -->
       		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+               <i class="fa fa-check"></i><p class="trn">status message</p><br>
       		</div>
 
          </div> <!-- /col-twelve -->
@@ -667,13 +535,9 @@
    				<i class="icon-pin"></i>
    			</div>
 
-   			<h5>Where to find me</h5>
+   			<h5 class="trn">location</h5>
 
-   			<p>
-			Tr. Manoel Ramos de Souza, 100 - sl 201 <br>
-			Ingleses Norte, Florianópolis - SC <br>
-            88058-180 BR
-            </p>
+   			<p class="trn">location details</p>
 
    		</div>
 
@@ -683,7 +547,7 @@
    				<i class="icon-mail"></i>
    			</div>
 
-   			<h5>Email Me At</h5>
+   			<h5 class="trn">email name</h5>
 
    			<p>
 			   contato.b4bits@gmail.com  
@@ -697,12 +561,9 @@
    				<i class="icon-phone"></i>
    			</div>
 
-   			<h5>Call Me At</h5>
+   			<h5 class="trn">call me</h5>
 
-   			<p>
-				Phone Work: +55 (48)99204-3919<br>
-			   	Mobile Person: +55 (48)99153-0435<br>
-			   </p>
+   			<p class="trn">call me details</p>
 
    		</div>
    		
@@ -751,6 +612,19 @@
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <script src="js/jquery.translate.js"></script>
+   <script src="js/translate.json.js"></script>
+
+   <script text="text/javascript">
+		var dict = $('body').dict()
+		var translator = $('body').translate({lang: "en", t: dict});
+		$( "#changePT" ).on( "click", function() {
+			var translator = $('body').translate({lang: "pt", t: dict});
+		} );
+		$( "#changeEN" ).on( "click", function() {
+			var translator = $('body').translate({lang: "en", t: dict});
+		} );
+	</script>
 
 </body>
 
