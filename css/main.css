@@ -438,6 +438,16 @@ img.pull-left {
 	height: 6px;
 }
 
+.image-cropper {
+    padding-bottom: 10px;
+}
+
+.image-cropper img{
+    height: 20px;
+	border-radius: 30%; 
+}
+
+
 /** 
  * ===================================================================
  * 04. preloader - (_preloader-1.scss)
